@@ -112,43 +112,4 @@ footer img:hover{
 
 @keyframes fadeUp{
     from{opacity:0; transform:translateY(20px);}
-    to{opacity:1; transform:translateY(0);}
-}
-
-/* Menú adaptable */
-.hamburger{
-    display:none;
-    flex-direction:column;
-    cursor:pointer;
-    gap:5px;
-}
-
-.hamburger div{
-    width:25px;
-    height:3px;
-    background:white;
-    transition:all 0.3s ease-in-out;
-}
-
-@media (max-width:768px){
-    nav{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .menu{
-        flex-direction:column;
-        display:none;
-        width:100%;
-        text-align:center;
-    }
-
-    .menu.active{
-        display:flex;
-    }
-
-    .hamburger{
-        display:flex;
-    }
-}
-
+    to{opacity:1; transform:translate
