@@ -104,7 +104,6 @@ footer img:hover{
     transform:scale(1.25);
 }
 
-/* Animaciones */
 @keyframes fadeIn{
     from{opacity:0;}
     to{opacity:1;}
