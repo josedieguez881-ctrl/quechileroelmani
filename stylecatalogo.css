@@ -5,7 +5,7 @@ body {
     color: white;
     margin: 0;
     padding: 20px;
-    text-align: center; /* Centra todo el texto */
+    text-align: center; 
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
     margin: auto;
 }
 
-/* Header */
+
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -23,7 +23,7 @@ header {
     width: 180px;
 }
 
-/* Imágenes */
+
 img {
     max-width: 100%;
     height: auto;
@@ -35,7 +35,7 @@ img:hover {
     transform: scale(1.05);
 }
 
-/* Nav y menú */
+
 nav {
     display: flex;
     justify-content: center;
@@ -68,12 +68,11 @@ nav {
     transform: scale(1.1);
 }
 
-/* Main */
 main {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Artículos generales */
+
 article {
     background-color: #1E1E1E;
     padding: 25px;
@@ -93,7 +92,6 @@ article p {
     text-align: justify;
 }
 
-/* Footer */
 footer {
     background-color: whitesmoke;
     color: black;
@@ -111,7 +109,6 @@ footer img:hover {
     transform: scale(1.25);
 }
 
-/* Animaciones */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -122,7 +119,7 @@ footer img:hover {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Menú adaptable */
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -145,7 +142,6 @@ footer img:hover {
 
     .menu {
         flex-direction: column;
-        display: none;
         width: 100%;
         text-align: center;
     }
