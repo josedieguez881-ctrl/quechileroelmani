@@ -1,10 +1,11 @@
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
     margin: 0;
     padding: 20px;
-    text-align:center;
+    text-align: center; /* Centra todo el texto */
 }
 
 .container {
@@ -12,6 +13,7 @@ body {
     margin: auto;
 }
 
+/* Header */
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -21,6 +23,7 @@ header {
     width: 180px;
 }
 
+/* Imágenes */
 img {
     max-width: 100%;
     height: auto;
@@ -32,6 +35,7 @@ img:hover {
     transform: scale(1.05);
 }
 
+/* Nav y menú */
 nav {
     display: flex;
     justify-content: center;
@@ -43,7 +47,7 @@ nav {
     padding: 15px 25px;
     border-radius: 20px;
     display: flex;
-    gap: 20px;
+    gap: 25px; /* Espacio entre enlaces */
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease-in-out;
 }
@@ -60,15 +64,16 @@ nav {
 }
 
 .menu a:hover {
-    background-color: rgba(255,255,255,0.2);
-    transform: scale(1.15);
+    background-color: rgba(255,255,255,0.25);
+    transform: scale(1.1);
 }
 
+/* Main */
 main {
-    text-align: center;
     animation: fadeIn 1s ease-in-out;
 }
 
+/* Artículos generales */
 article {
     background-color: #1E1E1E;
     padding: 25px;
@@ -84,10 +89,11 @@ article:hover {
     transform: translateY(-5px);
 }
 
-main article p {
+article p {
     text-align: justify;
 }
 
+/* Footer */
 footer {
     background-color: whitesmoke;
     color: black;
@@ -151,6 +157,12 @@ footer img:hover {
     .hamburger {
         display: flex;
     }
+
+    .menu a {
+        display: block;
+        padding: 12px;
+        font-size: 18px;
+    }
 }
 
 /* Catálogo de productos */
@@ -184,9 +196,4 @@ footer img:hover {
     text-align: justify;
     font-size: 16px;
     color: #ccc;
-}
-nav{
-    display:flex;
-    justify-content:center;
-    margin-top:20px;
 }
