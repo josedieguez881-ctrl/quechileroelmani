@@ -184,3 +184,8 @@ footer img:hover {
     font-size: 16px;
     color: #ccc;
 }
+nav{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
