@@ -1,11 +1,11 @@
-/* Estilo base */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
     margin: 0;
     padding: 20px;
-    text-align: center; /* Centra todo el texto */
+    text-align: center;
 }
 
 .container {
@@ -13,7 +13,6 @@ body {
     margin: auto;
 }
 
-/* Header */
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -23,7 +22,6 @@ header {
     width: 180px;
 }
 
-/* Imágenes */
 img {
     max-width: 100%;
     height: auto;
@@ -34,8 +32,6 @@ img {
 img:hover {
     transform: scale(1.05);
 }
-
-/* Nav y menú */
 nav {
     display: flex;
     justify-content: center;
@@ -47,7 +43,7 @@ nav {
     padding: 15px 25px;
     border-radius: 20px;
     display: flex;
-    gap: 25px; /* Espacio entre enlaces */
+    gap: 25px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease-in-out;
 }
@@ -68,12 +64,10 @@ nav {
     transform: scale(1.1);
 }
 
-/* Main */
 main {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Artículos generales */
 article {
     background-color: #1E1E1E;
     padding: 25px;
@@ -93,7 +87,6 @@ article p {
     text-align: justify;
 }
 
-/* Footer */
 footer {
     background-color: whitesmoke;
     color: black;
@@ -111,7 +104,6 @@ footer img:hover {
     transform: scale(1.25);
 }
 
-/* Animaciones */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -122,7 +114,6 @@ footer img:hover {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Menú adaptable sin JS */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -133,7 +124,7 @@ footer img:hover {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        display: flex; /* 👈 siempre visible */
+        display: flex; 
     }
 
     .menu a {
@@ -143,7 +134,6 @@ footer img:hover {
     }
 }
 
-/* Catálogo de productos */
 .catalogo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
